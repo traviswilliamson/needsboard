@@ -1,21 +1,6 @@
 # Needs Board
 TODO: Overview
 
-## Technical overview
-TODO: Constraints, free, easy to set up for non-technical people
-TODO: Tech stack
-- Frontend: Cloudflare Pages: React + Vite
-- Backend: Cloudflare Workers: Hono
-- Database: Cloudflare D1: SQLite
-
-## Development
-
-### Prerequisites
-- [Node 26](https://nodejs.org/en/about/previous-releases)
-  - Recommended: [fnm](https://github.com/Schniz/fnm)
-  - Recommended: [pnpm](https://pnpm.io/installation)
-- Run `pnpm ci`
-
 ## Deployment
 
 ### Prerequisites
@@ -37,6 +22,21 @@ TODO: `cd packages/worker && wrangler deploy`
 
 ### Frontend
 TODO: `cd packages/web && wrangler deploy disk --project-name=needs-board`
+
+## Technical overview
+TODO: Constraints, free, easy to set up for non-technical people
+TODO: Tech stack
+- Frontend: Cloudflare Pages: React + Vite
+- Backend: Cloudflare Workers: Hono
+- Database: Cloudflare D1: SQLite
+
+## Development
+
+### Prerequisites
+- [Node 26](https://nodejs.org/en/about/previous-releases)
+  - Recommended: [fnm](https://github.com/Schniz/fnm)
+  - Recommended: [pnpm](https://pnpm.io/installation)
+- Run `pnpm ci`
 
 # Technical roadmap
 - [ ] Scaffold repo
