@@ -1,0 +1,16 @@
+{
+	"name": "board-backend",
+	"main": "src/index.ts",
+	"compatibility_date": "2026-05-16",
+	"observability": {
+		"enabled": true
+	},
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "board-db",
+			"database_id": "df3e90d1-0e9b-4a48-bc9c-54d99903b475"
+		}
+	],
+	"placement": {  "mode": "smart" }
+}
